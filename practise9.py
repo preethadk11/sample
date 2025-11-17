@@ -1,6 +1,5 @@
-import re
-letter="Python is 1 1good"
-letter_count=re.sub("[^a-zA-Z]","",letter)
-digit_count=re.sub("[^0-9]","",letter)
-print(len(letter_count))
-print(len(digit_count))
+num=[1,2,3,4,4]
+sum=0
+for i in range(len(num)):
+    sum=sum+num[i]
+print(sum)
